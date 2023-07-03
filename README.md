@@ -82,17 +82,20 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+---
+A britol template of typist slides modified for XJTU.
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `wiuri`, `xjtu_bristol`, 
-`twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `wiuri`, `xjtu_bristol`, 
+`twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Built With
+---
+
 
 * Visual Studio Code
 * Typst LSP
@@ -145,26 +148,30 @@ To get a local copy up and running follow these simple example steps. -->
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-In your own typ file:
+---
+#### **In your own typ file:**
 ```typ
-#import "slides.typ": *
 #import "xjtu_bristol.typ": *
 ```
+Take care of the relative path. And there is no need to import the `slides.typ` file.
 
-Or simply modify the `xjtu_bristol.typ` file.
+For example, ```example/demo/demo.typ```
+
+#### **Or simply modify the `xjtu_bristol.typ` file**
+
+For example, ```/example/Literature_Research_of_Financial_Engineering/deck_Literature_Research_of_Financial_Engineering.typ```
 
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 - [ ] Feature 1
 - [ ] Feature 2
@@ -173,13 +180,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/wiuri/xjtu_bristol/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
+---
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -197,8 +204,9 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+---
+Distributed under the MIT License. 
+<!-- See `LICENSE.txt` for more information. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,7 +214,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
+---
 <!-- Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
 Wiuri - 2203411293@stu.xjtu.edu.cn
@@ -219,10 +227,11 @@ Project Link: [https://github.com/wiuri/xjtu_bristol](https://github.com/wiuri/x
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+---
+Much appreciation to Typst and Typst LSP ~
+<!-- * []()
 * []()
-* []()
-* []()
+* []() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
