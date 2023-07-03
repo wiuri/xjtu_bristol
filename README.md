@@ -84,6 +84,12 @@
 ## About The Project
 ---
 A britol template of typist slides modified for XJTU.
+
+```xjtu_bristol.typ``` is the main file of the template. ```slides.typ``` is the original file of typist slides. ```xjtu_bristol.typ``` imports ```slides.typ``` and modifies it.
+
+```xjtu_bristol.pdf``` is the output pdf file and acts as a test.
+
+There are 2 examples in ```./examples/```. Each of them has a ```*.typ``` file and a ```*.pdf``` file. The ```*.typ``` file is the source file and the ```*.pdf``` file is the output file. The two of them serve as examples of two different uses.
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `wiuri`, `xjtu_bristol`, 
@@ -149,7 +155,7 @@ To get a local copy up and running follow these simple example steps. -->
 <!-- USAGE EXAMPLES -->
 ## Usage
 ---
-#### **In your own typ file:**
+**Method 1: In your own typ file:**
 ```typ
 #import "xjtu_bristol.typ": *
 ```
@@ -157,7 +163,7 @@ Take care of the relative path. And there is no need to import the `slides.typ` 
 
 For example, ```example/demo/demo.typ```
 
-#### **Or simply modify the `xjtu_bristol.typ` file**
+**Method 2: Or simply modify the `xjtu_bristol.typ` file.**
 
 For example, ```/example/Literature_Research_of_Financial_Engineering/deck_Literature_Research_of_Financial_Engineering.typ```
 
